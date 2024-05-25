@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Formulario/estilo.css">
+    <title>Formulario</title>
+</head>
+<body>
+
+    
+    <br> <h2>Formulario de Contacto</h2>
+    <form action="guardar.php" method="post">
+        
+        <label for="Nombre">Nombre:</label>
+        <input type="text" id="Nombre" name="Nombre" maxlength="30" required> <br>
+
+        <label for="Apellido">Apellido:</label>
+        <input type="text" id="Apellido" name="Apellido" maxlength="60" required> <br>
+  
+        <label for="Calle">Dirección:</label>
+        <input type="text" id="Calle" name="Calle" maxlength="60" required> <br>
+ 
+        <label for="Bebida">Producto:</label>
+        <input type="text" id="Bebida" name="Bebida" maxlength="10" required> <br>
+
+        <label for="Numero">Numero de Guía:</label>
+        <input type="text" id="Numero" name="Numero" maxlength="10" required> <br>
+
+        <label for="Correo">Correo:</label>
+        <input type="text" id="Correo" name="Correo" maxlength="30" required> <br>
+
+         <br> <button class="sumit" type="submit">Enviar</button>
+
+     </form>
+</body>
+</html>
